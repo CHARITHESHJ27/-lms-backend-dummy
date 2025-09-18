@@ -1,0 +1,8 @@
+email,password,role
+student1@example.com,student123,STUDENT
+student2@example.com,student123,STUDENT
+student3@example.com,student123,STUDENT
+tutor1@example.com,tutor123,TUTOR
+tutor2@example.com,tutor123,TUTOR
+tutor3@example.com,tutor123,TUTOR
+admin1@example.com,admin123,ADMIN
