@@ -11,8 +11,8 @@
 ### 2. Setup Steps
 ```bash
 # Clone and setup
-git clone <repo-url>
-cd lms-backend
+git clone https://github.com/CHARITHESHJ27/-lms-backend-dummy.git
+cd -lms-backend-dummy
 npm install
 
 # Database setup

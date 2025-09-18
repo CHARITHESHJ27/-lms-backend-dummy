@@ -24,8 +24,8 @@ A Learning Management System backend built with Node.js, Express, Prisma, and Po
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd lms-backend
+git clone https://github.com/CHARITHESHJ27/-lms-backend-dummy.git
+cd -lms-backend-dummy
 ```
 
 2. **Install dependencies**
