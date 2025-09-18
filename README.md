@@ -190,7 +190,7 @@ lms-backend/
 └── package.json
 ```
 
-## Sprint 1 Deliverables ✅
+## Deliverables ✅
 
 - [x] Authentication system with JWT
 - [x] Role-based access control
