@@ -5,6 +5,7 @@ import authRoutes from "./routes/auth.js";
 import userRoutes from "./routes/user.js";
 import courseRoutes from "./routes/course.js";
 import prisma from "./prismaClient.js";
+import { swaggerUi, specs } from "./config/swagger.js";
 
 dotenv.config();
 
@@ -19,6 +20,9 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/courses", courseRoutes);
+
+// Swagger Documentation
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 // Test route
 app.get("/", (req, res) => {

@@ -43,6 +43,7 @@ async function main() {
     },
   });
 
+  
   // New Student (must reset password on first login)
   await prisma.user.upsert({
     where: { email: "newstudent@lms.com" },

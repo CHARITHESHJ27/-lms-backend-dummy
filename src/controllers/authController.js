@@ -30,6 +30,7 @@ export const login = async (req, res) => {
         where: { email },
         data: { loginAttempts: { increment: 1 } },
       });
+      
       // E002 - Login Failure Event
       console.log(`[E002] Login Failure - Email: ${email}, Reason: Invalid password, Time: ${new Date().toISOString()}`);
       return res.status(401).json({ message: "Invalid credentials" });
