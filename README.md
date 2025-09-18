@@ -1,4 +1,4 @@
-# LMS Backend - Sprint 1
+# LMS Backend 
 
 A Learning Management System backend built with Node.js, Express, Prisma, and PostgreSQL.
 
