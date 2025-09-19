@@ -1,4 +1,4 @@
-# Testing Guide - LMS Backend Sprint 1
+# Testing Guide - LMS Backend 
 
 ## Test Environment Setup
 
@@ -31,7 +31,7 @@ npm run dev
 
 
 
-### Test Case 1: E001 - Login Success ✅
+### Test Case 1: E001 - Login Success 
 **Endpoint:** `POST /api/auth/login`
 **Test Data:**
 ```json
@@ -45,7 +45,7 @@ npm run dev
 - Response contains: token, role, userId
 - Console log: `[E001] Login Success - User: admin@lms.com, Role: ADMIN`
 
-### Test Case 2: E002 - Login Failure ✅
+### Test Case 2: E002 - Login Failure 
 **Endpoint:** `POST /api/auth/login`
 **Test Data:**
 ```json
